@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Опрос любителей книг</title>
+</head>
+<body>
+<div id="main" style="background: LawnGreen; height: 170%;">
+<div id="heading" style="margin-bottom: 5px;">
+<h1 style="text-align: center; padding-top: 5%; color: Black">Опрос за неделю</h1>
+</div>
+	<p align="center"><b>Маленький опрос для любителей книг</b></p>
+		<div id="contacts" style="background: SandyBrown; border-radius: 200px; margin-left: 5%; margin-right: 5%;">
+		<div id="post-heading" style="text-align: center; margin: 3%;"><h2 style="padding-top: 2%;">По теме: Книги</h2></div>
+		<form id="form_input" style="margin: 10px 20%;font-size: 1.1em; padding: 10px 2%;">
+		<h2 label for="name">Введите фамилию, имя и отчество. <span style="color: Black"></span></h2></label><br>
+		<pre><input type="text" placeholder="Введите фамилию" name="name" id="name" style="margin-bottom: 5px;">    <input type="text" placeholder="Введите имя" name="Lastname" id="name" style="margin-bottom: 15px;">    <input type="text" placeholder="Введите отчество" name="Otchestvo" id="name" style="margin-bottom: 15px;"></pre><br>
+		<h2 label for="mail">Ваша почта <span style="color: Black"></span></h2></label><br>
+		<input type="text" placeholder="Введите почту" name="mail" id="mail" style="margin-bottom: 10px;"><br>
+		<h2 label for="time">Сколько времени вы читаете в день?:<span style="color: Black"></span></h2></label><br>
+		<div id="radio" style="margin-bottom: 10px; margin-top: 1px">
+			<span><input type="radio" name="time">30 минут</span><br>
+			<span><input type="radio" name="time">Час</span><br>
+			<span><input type="radio" name="time">Два часа</span><br>
+			<span><input type="radio" name="time">Более двух часов</span><br><br>
+<h2 label for="fave">Ваша любимая книга?<span style="color: Black"></span></h2></label><br>
+<input type="text" placeholder="Название книги" name="book" id="book" style="margin-bottom: 10px;"><br>
+<textarea placeholder="Чем она вас зацепила?" name="message" id="message" style="margin-bottom: 10px; height: 150px; width: 100%"></textarea><br>
+<h2 label for="genre">Выберите ваш любимый жанр<span style="color: Black"></span></h2></label><br>
+</div><select name="genre" id="genre" style="margin-bottom: 10px;">
+	<option>Детективы</option>
+	<option>Фэнтези</option>
+	<option>Сай-Фай</option>
+	<option>Хорроры</option>
+	<option>Драма</option>
+	<option>Адвенчура</option>
+	<option>Документальные</option>
+</select><br>
+<h2 label for="checkbox">Где вы любите читать?<span style="color: Black"></span></h2></label><br>
+<div id="checkbox" style="margin-bottom: 10px; margin-top: 1px">
+	<span><input type="checkbox" name="place" checked>В метро</span><br>
+	<span><input type="checkbox" name="place">Лежа в кровати</span><br>
+	<span><input type="checkbox" name="place">Сидя за столом</span><br>
+	<span><input type="checkbox" name="place">В кресле</span><br>
+	<span><input type="checkbox" name="place">На улице</span><br><br>
+		<div id="mess_send" style="text-align: center">
+			<button style="border-radius: 5px; padding: 5px 9px; font-size: 1em; cursor: pointer;" >
+				Отправить
+			</button>
+		</div>
+	</form>
+</div>
+</div>
+</body>
+</html>
